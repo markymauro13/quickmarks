@@ -5,3 +5,5 @@
 </p>
 
 a chrome extension for your cluttered bookmarks bar
+
+<img src="./images/quickmarks.png">
