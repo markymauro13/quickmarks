@@ -1,0 +1,36 @@
+input {
+    height: 30px;
+    width: 200px;
+    margin: 10px;
+    border-radius: 2px;
+}
+
+.searchbkmks{
+}
+
+#bookmarks{
+  margin-top: 12px;
+    /* border-style: solid; 
+    border-color: purple; */
+}
+
+.ulclass{
+  padding: 5;
+  list-style-type:disc;
+}
+
+li::before {
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+.linkcss{
+  color: black;
+}
+
+.linkcss:hover{
+  transition: 0.4s;
+  color: red;
+}
